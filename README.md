@@ -124,4 +124,4 @@ If all setup were correct you should see approximately 149  errors on each data-
 Using [OsBiTools](http://www.osbitools.com/ "Open Source Business Intelligence Tools") data engine it is very easy visualize data from scenario #1. All corresponded files for data mapping and page 
 design can be found in /doc/osbitoos sub-folder. Below is snapshot from page build with this amazing visualization engine.
 
-![Request distribution between data consumers](https://raw.githubusercontent.com/ipeonte/client-side-lb-demo/master/client-side-lb-demo/doc/osbitool/req_distribution_chart.png)
+![Request distribution between data consumers](https://raw.githubusercontent.com/ipeonte/client-side-lb-demo/master/doc/osbitools/req_distribution_chart.png)

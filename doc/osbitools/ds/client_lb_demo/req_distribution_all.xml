@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ds.xsd" ver_max="1" ver_min="0" descr="Request Distribution for all data-producer">
+	<csv_data file_name="ports.csv">
+		<columns>
+			<column name="PORT" java_type="java.lang.String" />
+			<column name="REPLIES" java_type="java.lang.Integer" on_error="0" />
+		</columns>
+	</csv_data>
+</ds>

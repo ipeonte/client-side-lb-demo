@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/wp.xsd" ver_max="1" ver_min="0" descr="" inc="9" title="LX_REQ_DISTRIBUTION_TITLE" charset="utf-8" copyright="Igor Peonte">
+	<panels>
+		<panel>
+			<wwg_cont uid="1" idx="0" class_name="com.osbitools.containers.tab_box">
+				<props>
+					<prop name="id" value="com_osbitools_containers_tab_box_1" />
+					<prop name="header_title" value="LX_REQ_DISTRIBUTION_1" />
+					<prop name="header_icon" value="gear.png" />
+				</props>
+				<wwg_list>
+					<wwg_chart uid="2" idx="0" class_name="com.osbitools.charts.jqplot.pie" engine="jqplot">
+						<props>
+							<prop name="id" value="com_osbitools_charts_jqplot_pie_2" />
+							<prop name="size_width" value="350" />
+							<prop name="size_height" value="300" />
+							<prop name="ds" value="client_lb_demo.req_distribution_1" />
+							<prop name="x_axis" value="PORT" />
+							<prop name="is_show_point_labels" value="true" />
+							<prop name="legend_enabled" value="true" />
+						</props>
+						<prop_groups>
+							<prop_group name="y_axis">
+								<props>
+									<prop name="y_axis" value="REPLIES" />
+								</props>
+							</prop_group>
+						</prop_groups>
+					</wwg_chart>
+				</wwg_list>
+			</wwg_cont>
+			<wwg_cont uid="3" idx="1" class_name="com.osbitools.containers.tab_box">
+				<props>
+					<prop name="id" value="com_osbitools_containers_tab_box_3" />
+					<prop name="header_title" value="LX_REQ_DISTRIBUTION_2" />
+					<prop name="header_icon" value="gear.png" />
+				</props>
+				<wwg_list>
+					<wwg_chart uid="5" idx="0" class_name="com.osbitools.charts.jqplot.pie" engine="jqplot">
+						<props>
+							<prop name="id" value="com_osbitools_charts_jqplot_pie_5" />
+							<prop name="size_width" value="350" />
+							<prop name="size_height" value="300" />
+							<prop name="ds" value="client_lb_demo.req_distribution_2" />
+							<prop name="title" value="LX_REQ_DISTRIBUTION_2" />
+							<prop name="x_axis" value="PORT" />
+							<prop name="is_show_point_labels" value="true" />
+							<prop name="legend_enabled" value="true" />
+						</props>
+						<prop_groups>
+							<prop_group name="y_axis">
+								<props>
+									<prop name="y_axis" value="REPLIES" />
+								</props>
+							</prop_group>
+						</prop_groups>
+					</wwg_chart>
+				</wwg_list>
+			</wwg_cont>
+		</panel>
+		<panel>
+			<wwg_cont uid="6" idx="0" class_name="com.osbitools.containers.tab_box">
+				<props>
+					<prop name="id" value="com_osbitools_containers_tab_box_6" />
+					<prop name="header_title" value="LX_REQ_DISTRIBUTION_3" />
+					<prop name="header_icon" value="gear.png" />
+				</props>
+				<wwg_list>
+					<wwg_chart uid="7" idx="0" class_name="com.osbitools.charts.jqplot.pie" engine="jqplot">
+						<props>
+							<prop name="id" value="com_osbitools_charts_jqplot_pie_7" />
+							<prop name="size_width" value="350" />
+							<prop name="size_height" value="300" />
+							<prop name="ds" value="client_lb_demo.req_distribution_3" />
+							<prop name="x_axis" value="PORT" />
+							<prop name="is_show_point_labels" value="true" />
+							<prop name="legend_enabled" value="true" />
+						</props>
+						<prop_groups>
+							<prop_group name="y_axis">
+								<props>
+									<prop name="y_axis" value="REPLIES" />
+								</props>
+							</prop_group>
+						</prop_groups>
+					</wwg_chart>
+				</wwg_list>
+			</wwg_cont>
+			<wwg_cont uid="8" idx="1" class_name="com.osbitools.containers.tab_box">
+				<props>
+					<prop name="id" value="com_osbitools_containers_tab_box_8" />
+					<prop name="header_title" value="LX_REQ_DISTRIBUTION_ALL" />
+					<prop name="header_icon" value="gear.png" />
+				</props>
+				<wwg_list>
+					<wwg_chart uid="9" idx="0" class_name="com.osbitools.charts.jqplot.bar" engine="jqplot">
+						<props>
+							<prop name="id" value="com_osbitools_charts_jqplot_bar_9" />
+							<prop name="size_width" value="350" />
+							<prop name="size_height" value="300" />
+							<prop name="ds" value="client_lb_demo.req_distribution_all" />
+							<prop name="is_animate" value="true" />
+							<prop name="x_axis" value="PORT" />
+							<prop name="is_show_point_labels" value="true" />
+							<prop name="x_axis_label" value="LX_DATA_CONS_PORT_NUM" />
+							<prop name="y_axis_label" value="LX_NUM_OF_ATTEMPTS" />
+							<prop name="series_colors" value="#c5b47f,#4bb2c5,#eaa228" />
+						</props>
+						<prop_groups>
+							<prop_group name="series">
+								<props>
+									<prop name="label" value="" />
+									<prop name="y_axis" value="REPLIES" />
+								</props>
+							</prop_group>
+						</prop_groups>
+					</wwg_chart>
+				</wwg_list>
+			</wwg_cont>
+		</panel>
+	</panels>
+</wp>

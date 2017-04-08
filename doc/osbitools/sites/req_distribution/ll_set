@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ll_set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ll_set.xsd" ver_max="1" ver_min="0" lang_list="en,fr,ru">
+
+	<lang_label id="LX_REQ_DISTRIBUTION_1">
+		<ll_def lang="en" value="Request Distribution for 1st data producer" />
+		<ll_def lang="fr" value="" />
+		<ll_def lang="ru" value="" />
+	</lang_label>
+	<lang_label id="LX_REQ_DISTRIBUTION_2">
+		<ll_def lang="en" value="Request Distribution for 2nd data producer" />
+		<ll_def lang="fr" value="" />
+		<ll_def lang="ru" value="" />
+	</lang_label>
+	<lang_label id="LX_REQ_DISTRIBUTION_3">
+		<ll_def lang="en" value="Request Distribution for 3rd data producer" />
+		<ll_def lang="fr" value="" />
+		<ll_def lang="ru" value="" />
+	</lang_label>
+	<lang_label id="LX_REQ_DISTRIBUTION_ALL">
+		<ll_def lang="en" value="Request Distribution for All data producer" />
+		<ll_def lang="fr" value="" />
+		<ll_def lang="ru" value="" />
+	</lang_label>
+	<lang_label id="LX_REQ_DISTRIBUTION_TITLE">
+		<ll_def lang="en" value="Request Distribution for Client Side Load Balalncing" />
+		<ll_def lang="fr" value="" />
+		<ll_def lang="ru" value="" />
+	</lang_label>
+	<lang_label id="LX_NUM_OF_ATTEMPTS">
+		<ll_def lang="en" value="Number of attempts" />
+		<ll_def lang="fr" value="" />
+		<ll_def lang="ru" value="" />
+	</lang_label>
+	<lang_label id="LX_DATA_CONS_PORT_NUM">
+		<ll_def lang="en" value="Data Consumer Port #" />
+		<ll_def lang="fr" value="" />
+		<ll_def lang="ru" value="" />
+	</lang_label>
+
+</ll_set>
